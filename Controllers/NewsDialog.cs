@@ -11,6 +11,7 @@ using System.Web;
 
 namespace NewsBot
 {
+    
     [LuisModel("b6b08a2c-3da0-4aad-8462-21b76aa93016", "4111a655fc3e4ec2a4912e3966648827")]
     [Serializable]
     public class NewsDialog : LuisDialog<object>
