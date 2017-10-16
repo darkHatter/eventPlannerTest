@@ -11,11 +11,11 @@ using System.Web;
 
 namespace NewsBot
 {
-    [LuisModel("<INSERT LUIS MODEL GUID>", "<INSERT LUIS SUBSCRIPTION GUID>")]
+    [LuisModel("b6b08a2c-3da0-4aad-8462-21b76aa93016", "4111a655fc3e4ec2a4912e3966648827")]
     [Serializable]
     public class NewsDialog : LuisDialog<object>
     {
-        private static string BingSearchApiKey = "<INSERT BING SEARCH KEY>";
+        private static string BingSearchApiKey = "7d50f180892349e1a3df89d2c0b7a455";
 
         [LuisIntent("NewsSubject")]
         public async Task NewsSubject(IDialogContext context, LuisResult result)
